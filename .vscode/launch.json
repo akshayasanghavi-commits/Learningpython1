@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run pdf_loader",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/rag_doc_qa/ingestion/pdf_loader.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/rag_doc_qa",
+      "justMyCode": true
+    }
+  ]
+}
