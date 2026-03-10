@@ -1,6 +1,10 @@
 README.md
 📚 Agentic RAG System with Local LLM (Fully Offline)
 
+This project implements a multi-source Retrieval-Augmented Generation (RAG) system capable of answering questions from PDF documents, structured databases, and live web search.
+
+The system uses a multi-agent architecture where a routing agent determines the most relevant data source, retrieves context, and generates answers using a local LLM.
+
 An end-to-end Agentic Retrieval-Augmented Generation (RAG) system built using:
 
 Custom document ingestion pipeline
@@ -34,23 +38,15 @@ Orchestrate intelligent workflows using multi-agent architecture
 The entire system runs locally — no paid APIs required.
 
 🧠 Architecture
-User
-  ↓
-Streamlit UI (coming next)
-  ↓
-CrewAI Orchestrator
-  ↓
-Agents:
-   - Retrieval Agent
-   - Answer Agent
-   - (Upcoming) Critique Agent
-  ↓
-Custom Tools:
-   - Vector Retrieval (FAISS)
-   - (Upcoming) SQL Tool
-   - (Upcoming) Web Search Tool
-  ↓
-Local LLM (FLAN-T5 via Hugging Face)
+User Query
+   ↓
+Router Agent
+   ↓
+PDF Retriever | SQL Tool | Web Tool
+   ↓
+Answer Agent
+   ↓
+Final Response
 
 🏗 Core Components
 1️⃣ Document Ingestion
@@ -71,9 +67,7 @@ Semantic similarity search
 
 3️⃣ Local LLM
 
-Model: google/flan-t5-small
-
-Downloaded from Hugging Face
+Model: ollama
 
 Runs fully offline after first download
 
@@ -150,26 +144,16 @@ This project demonstrates:
 ✔ Vector database understanding
 ✔ Embedding generation
 ✔ Agent-based AI orchestration
+✔ conversatiom memory
+✔ SQL Tool
+✔ Web Search Tool
+✔  Streamlit Chat
 ✔ Local LLM integration
 ✔ Modular architecture
 
 This is closer to real production AI systems than simple API-based chatbots.
 
-📈 Future Enhancements (Roadmap)
 
- Add Critique Agent (self-improving answers)
-
- Add Conversation Memory
-
- Add SQL Tool (structured data reasoning)
-
- Add Web Search Tool
-
- Add Evaluation metrics (answer accuracy scoring)
-
- Add Streamlit Chat UI
-
- Deploy locally as API service
 
 🧑‍💻 Learning Outcomes
 
