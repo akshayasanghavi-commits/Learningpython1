@@ -11,7 +11,7 @@ Custom document ingestion pipeline
 
 Semantic search with FAISS
 
-Local LLM (FLAN-T5)
+Local LLM (ollama)
 
 Multi-agent orchestration using CrewAI
 
