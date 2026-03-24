@@ -5,4 +5,3 @@ fraud_detection_ml/fdenv/
 __pycache__/
 *.pyc
 *.pyd
-fraud_detection_ml/data/creditcard.csv
