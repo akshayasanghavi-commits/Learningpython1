@@ -1,6 +1,8 @@
 rag_doc_qa/rag_venv/
-fraud_detection_ml/fdenv/ __pycache__/ *.pyc
+fraud_detection_ml/fdenv/
+ __pycache__/ *.pyc
 **/venv/
 __pycache__/
 *.pyc
 *.pyd
+fraud_detection_ml/data/creditcard.csv
