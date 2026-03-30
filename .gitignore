@@ -6,3 +6,7 @@ __pycache__/
 *.pyc
 *.pyd
 fraud_detection_ml/data/creditcard.csv
+
+
+fraud_detection_ml/data/X_test.pkl
+fraud_detection_ml/data/X_test.
