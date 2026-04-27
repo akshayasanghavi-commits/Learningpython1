@@ -1,5 +1,6 @@
 rag_doc_qa/rag_venv/
 fraud_detection_ml/fdenv/
+customer_churn_ml/ccvenv
  __pycache__/ *.pyc
 **/venv/
 __pycache__/
@@ -10,3 +11,4 @@ __pycache__/
 fraud_detection_ml/data/creditcard.csv
 fraud_detection_ml/data/X_test.pkl
 fraud_detection_ml/data/X_test.
+customer_churn_ml/data/WA_Fn-UseC_-Telco-Customer-Churn.csv
