@@ -58,3 +58,22 @@ An intelligent data pipeline that combines **Unsupervised Machine Learning** wit
         **Hybrid AI** Architecture: Created a seamless hand-off between traditional Data Science (clustering) and Generative AI (CrewAI            agents), allowing the "Technical Journalist" agent to write highly structured, cluster-aware reports.
 
          Object-Oriented Design (OOP): Built using robust OOP principles, utilizing inheritance and encapsulation to ensure the pipeline           is modular, reusable, and easy to scale.
+
+
+# 4.AgenticAI
+Agentic Real Estate Marketing Engine
+An automated,** multi-agent AI pipeline** built using CrewAI and Google Gemini that converts raw real estate data into professional listing descriptions and high-engagement social media content.
+
+    #  The Problem: Transforming technical property specs (square footage, price) into compelling, emotionally resonant marketing copy is        a manual and time-consuming process.
+
+     #  The Tech: Python, CrewAI, LangChain, Google Gemini API (LLM).
+
+     #   Key Highlights:
+
+         Workflow Orchestration with CrewAI: Developed a sequential workflow where specialized AI agents (a "Writer" and a "Social                 Manager") collaborate, passing data seamlessly between tasks.
+
+         Natural Language Generation (NLG): Leveraged the Gemini-2.5-flash model for its speed and high-quality creative output,                   generating compelling narrative-driven house descriptions.
+
+         Context-Aware Content Adaptation: Implemented task-context awareness, enabling the "Social Manager" agent to ingest the                   "Writer's"        formal output and adapt it into a viral, emoji-rich Instagram post with 100% factual accuracy.
+
+         Automation of Complex Creative Workflows: Demonstrated how autonomous AI agents can handle multi-step creative processes that             traditionally required different human skill sets (copywriting and social media management).
