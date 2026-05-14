@@ -78,7 +78,23 @@ An automated,**multi-agent AI pipeline** built using CrewAI and Google Gemini th
 
          Automation of Complex Creative Workflows: Demonstrated how autonomous AI agents can handle multi-step creative processes that             traditionally required different human skill sets (copywriting and social media management).
 
+# 5.Rag_Doc_QA
+Local Agentic RAG System
+A high-performance, **privacy-focused Retrieval-Augmented Generation (RAG) system**that orchestrates multi-source data retrieval using a fully local AI stack.
 
+    #  The Problem: Traditional RAG systems often rely on costly APIs and single-source data, risking data privacy and limiting the scope        of knowledge.
+
+    #   The Tech: Python, CrewAI, Ollama (Local LLM), FAISS, SentenceTransformers.
+
+    #   Key Highlights:
+
+         Multi-Source Routing: **Engineered a router agent** that intelligently directs queries between PDF documents, SQL databases, and          live web search based on intent.
+
+         Local-First Architecture: Deployed using **Ollama** and FAISS to ensure 100% data privacy and zero API latency/costs, making it           suitable for sensitive enterprise data.
+
+         Semantic Search Optimization: Built a custom ingestion pipeline using Recursive Character **Chunking** and SentenceTransformers           to  maximize retrieval accuracy and context relevance.
+
+         Agentic Orchestration: Utilized CrewAI to manage a "Retrieval Agent" and an "Answer Agent," creating a self-correcting loop that          verifies retrieved context before generating the final response.
 
 📈 Core Competencies
 Languages: Python (Advanced), Java (Enterprise-scale).
