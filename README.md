@@ -62,7 +62,7 @@ An intelligent data pipeline that combines **Unsupervised Machine Learning** wit
 
 # 4.AgenticAI
 Agentic Real Estate Marketing Engine
-An automated,** multi-agent AI pipeline** built using CrewAI and Google Gemini that converts raw real estate data into professional listing descriptions and high-engagement social media content.
+An automated,**multi-agent AI pipeline** built using CrewAI and Google Gemini that converts raw real estate data into professional listing descriptions and high-engagement social media content.
 
     #  The Problem: Transforming technical property specs (square footage, price) into compelling, emotionally resonant marketing copy is        a manual and time-consuming process.
 
@@ -77,3 +77,15 @@ An automated,** multi-agent AI pipeline** built using CrewAI and Google Gemini t
          Context-Aware Content Adaptation: Implemented task-context awareness, enabling the "Social Manager" agent to ingest the                   "Writer's"        formal output and adapt it into a viral, emoji-rich Instagram post with 100% factual accuracy.
 
          Automation of Complex Creative Workflows: Demonstrated how autonomous AI agents can handle multi-step creative processes that             traditionally required different human skill sets (copywriting and social media management).
+
+
+
+📈 Core Competencies
+Languages: Python (Advanced), Java (Enterprise-scale).
+
+AI/ML: Regression, Clustering,Random forest ,Xg-Boost,Logistic Regression ,Neural Network ,Agentic Workflows, RAG.
+
+Operations: Contract Management, Technical Documentation, Full-cycle Project Delivery.
+
+📬 Let's Connect
+I am currently focused on building scalable AI solutions and re-entering the tech space with a blend of software engineering rigor and modern machine learning expertise.
