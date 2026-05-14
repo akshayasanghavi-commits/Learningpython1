@@ -40,3 +40,21 @@ A sophisticated **multi-agent framework** built with CrewAI and Google Gemini to
 
         Scalable **Prompt Engineering**: Crafted complex, role-specific prompts that guide the agents to produce high-density, impact-            oriented  professional summaries tailored to specific industry requirements.
 
+# 3. Apex_intelligence 
+
+ML-Driven Research Orchestrator
+An intelligent data pipeline that combines **Unsupervised Machine Learning** with **Agentic Workflows** to automate the synthesis of large-scale research data.
+
+    # The Problem: Traditional LLMs struggle with "context window" limits and disorganized raw data. This project solves that by pre-           processing data into logical groups before analysis.
+
+     # The Tech: Python (OOP), Scikit-Learn, CrewAI, Google Gemini API, Pandas.
+
+     #  Key Highlights:
+
+        Intelligent Data Pre-processing: Developed a custom IntelligentFilter class that uses **TF-IDF Vectorization** to convert raw             text into numerical significance scores.
+
+        Unsupervised Learning Integration: Implemented **K-Means** Clustering to mathematically group similar research findings, reducing         noise and improving the "signal-to-noise" ratio for the AI agents.
+
+        **Hybrid AI** Architecture: Created a seamless hand-off between traditional Data Science (clustering) and Generative AI (CrewAI            agents), allowing the "Technical Journalist" agent to write highly structured, cluster-aware reports.
+
+         Object-Oriented Design (OOP): Built using robust OOP principles, utilizing inheritance and encapsulation to ensure the pipeline           is modular, reusable, and easy to scale.
