@@ -18,7 +18,7 @@ A focused implementation of a **Linear Regression model**, built to demonstrate 
 
          Custom Data Pipeline: Engineered a streamlined data ingestion process using NumPy arrays for efficient numerical processing.
 
-         Model Interpretability: Analyzed __feature coefficients__ to identify which variables (e.g., square footage vs. age) had the               greatest impact on price.
+         Model Interpretability: Analyzed **feature coefficients** to identify which variables (e.g., square footage vs. age) had the               greatest impact on price.
 
 
 
