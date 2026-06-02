@@ -7,15 +7,11 @@ The system uses a multi-agent architecture where a routing agent determines the 
 
 An end-to-end Agentic Retrieval-Augmented Generation (RAG) system built using:
 
-Custom document ingestion pipeline
-
+**Custom document ingestion pipeline
 Semantic search with FAISS
-
 Local LLM (ollama)
-
 Multi-agent orchestration using CrewAI
-
-Designed for extensibility (memory, SQL tools, web search, UI)
+Designed for extensibility (memory, SQL tools, web search, UI)**
 
 This project demonstrates real-world AI system architecture beyond simple tutorials.
 
@@ -23,19 +19,19 @@ This project demonstrates real-world AI system architecture beyond simple tutori
 
 This system enables users to:
 
-Upload and process PDF documents
+1. Upload and process PDF documents
 
-Convert document text into semantic embeddings
+2. Convert document text into semantic embeddings
 
-Store vectors in FAISS vector database
+3. Store vectors in FAISS vector database
 
-Retrieve relevant document chunks using similarity search
+4. Retrieve relevant document chunks using similarity search
 
-Generate context-aware answers using a local LLM
+5. Generate context-aware answers using a local LLM
 
-Orchestrate intelligent workflows using multi-agent architecture
+6. Orchestrate intelligent workflows using multi-agent architecture
 
-The entire system runs locally — no paid APIs required.
+**The entire system runs locally — no paid APIs required.**
 
 🧠 Architecture
 User Query
