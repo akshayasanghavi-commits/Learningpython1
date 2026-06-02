@@ -1,0 +1,13 @@
+
+scikit-learn
+imbalanced-learn
+xgboost
+shap
+scipy
+jupyter
+Pandas : 3.0.2
+NumPy : 2.4.4
+Matplotlib : 3.10.9
+Seaborn    : 0.13.2
+Sklearn    : 1.8.0
+TensorFlow : 2.21.0
